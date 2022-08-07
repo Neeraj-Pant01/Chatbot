@@ -1,4 +1,4 @@
-let text = document.getElementById('text');
+let txt = document.getElementById('text');
 let btn = document.getElementById('btn');
 let container = document.getElementById('cont');
 const messege1 = ["cool buddy and you ?", "iam absolutely awesome", "doing great what about you"]
@@ -6,7 +6,7 @@ const messege2 = ["iam your chat buddy", "iam bot your freind", "iam your freind
 
 
 btn.addEventListener('click',()=>{
-    let textValue = text.value;
+    let textValue = txt.value;
     let msg = document.createElement('div');
     msg.classList.add('sentMesseges');
     msg.innerHTML = textValue;
